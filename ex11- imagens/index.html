@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>imagem dinamica</h1>
+<!--- IMPORTANTE
+     A TAG PICTURE É NECESSARIA PRA ENQUADRA AS IMAGENS EM DIFERENTES ECRA, SEJA PRA PC
+    CELULAR OU TABLET. -->
+    <picture> 
+     <source media="(max-width: 750px)"  srcset="imagens/foto-p.png" type="image/png">
+     <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png"> <!--SEMPRE DO MENOR PRO MAIOR.-->
+        <img src="imagens/foto-g.png" alt="imagem flexível">    
+       </picture>
+    <!--SOURCE ESSA TAG  EU CONSIGO MANIPULAR O TAMANHO 
+     EX: ASSIM QUE A TELA SEJA MENOR QUE 1050PX AUTOMATICAMENTE SE ADAPTA A OUTRA IMAGEM PORTEM COM TAMANHOS DIFERENTES
+     E ASSIM QUE ATINGIR O TAMANHO MENOR DE 750PX AUTOMATICAMENTE SE ADAPTA A IMAGEM MENOR.-->
+
+     <h2>vamos colocar audio no site.</h2>
+     <p>isso tudo em html 5</p>
+ <audio preload="auto" autoplay controls> <!--codigo preload para o visitante poder observar as configuraçoes do audio como tempo e peso do audio.-->
+    
+    <source src="midias/Mini Vandals.mp3" type="">
+    </audio>
+    <audio src="**" type="audio/ogg"></audio> 
+    <audio src="**" type="audio/wav"></audio>
+<!--existem 3 maneiras diferentes de colocar uma musica ou som em seu site como : MP3 , OGG , WAV.
+LEMBRANDO QUE SEMPRE VAI TER QUE MANTER AS ORDENS DOS CODIGOS. SE O PRIMEIRO NAO FUNCIONAR VAI CORRIGIR E TENTAR 
+O CODIGO ABAIXO.-->
+</audio>
+     
+     <Audio autoplay controls>
+
+        <source src="midias/Afternoon Crickets Long.mp3" type="">
+     </Audio>
+
+    </body>
+</html>

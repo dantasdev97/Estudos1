@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+       /* # = id
+        .  = class
+        :  = pseudo class
+        :: =pseudo-element*
+         > = childrem
+         */ 
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+a{
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+a:visited{
+    color: darkgoldenrod;
+}
+a.houver{
+    color: black;
+    text-decoration: underline;
+}
+a:active{
+    color: rgba(0, 4, 236, 0.705); /*quando eu passo o mouse e selecionado dessa cor*/
+}
+.escpecial{
+    color: yellow;
+}
+   
+
+.especial::before{
+  content:  '>>>>>';
+}
+.especial:active{
+
+    content:  '<<<<< ';
+}
+    </style>
+</head>
+<body>
+    <h1>personalizando links</h1>
+    <ul>
+        <li><a href="https://github.com/gustavoguanabara">canal do youtube</a></li>
+        <li> <a href="https://www.youtube.com/@OMeuCanaldeGames/" class="especial">canal de games</a></li>
+        <li><a href="https://www.megacurioso.com.br/" class="especial">site de curiosidade</a></li>
+    </ul>
+
+    
+  
+</body>
+</html>
