@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Corben&family=Sriracha&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+:root{
+    --font1 : Verdana, Geneva , tahoma, sans-serif;
+    --font2 :  'Passion One' , cursive ;
+    --font3 :  'Corben', cursive; 
+    
+}
+body , nav{
+    padding-left: 15vh;
+    padding-right: 15vh;
+}
+ nav{
+    
+  background-color: rgba(250, 249, 249, 0.685);
+  padding-top:70px;
+  padding-bottom: 40px;
+  
+  border: 2px solid rgba(0, 0, 0, 0.178);
+  
+ }
+
+ .menu{
+    
+    display: flex;
+    justify-content:  end ;
+   font-family: var(--font2);
+  
+ }
+ .menu-h > li{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: inline;
+   }
+
+   header{
+    
+    background-color: blue;
+    background-image: url(imagens/doutor1.jpg);
+    padding-bottom: 50vh;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+   header h2  {
+    text-align: left;
+    font-family: var(--font3);
+    font-size: 90px;
+   }
+
+   header p {
+    text-align: left;
+    font-family: var(--font3);
+    font-size: 40px;
+    
+   }
+   main{
+    display: flex;
+    justify-content: baseline;
+    background-color:aqua;
+    padding-bottom: 40vh;
+    padding-top:20vh ;
+    
+   }
+  
+   
+   
+   .container{
+    
+     width: 960px;
+     
+     padding: 20px;
+     display: flex;
+     align-items: left;
+     justify-content: left;
+     flex-wrap: wrap;
+   }
+
+
+   .container .card {
+    
+     position: relative;
+     padding: 10px;
+     width: 250px;
+     background-color: white;
+     margin: 15px;
+     border: 1px solid black;
+     border-radius: 20px;
+     overflow: hidden;
+     transition: 0.5s;
+     text-align: center;
+
+   } 
+   .container .card img {
+    transition: 0.5s;
+   }
+   .container .card h1{
+    font-size: 2rem;
+   }
+   .container .card .content {
+    padding: 20px;
+    text-align: center;
+   }
+   .container .card .content p{
+    color: #666;
+    transition: 0.5s;
+   }
+   .container .card .content a{
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 40px;
+    text-decoration: none;
+    transition: 0.1s;
+    outline: none;
+    margin-top: 30px;
+   }
+   .container .card a:hover{
+background-color: #dc2e69;
+color: white;
+margin-top: 25px;
+box-shadow: 2px 20px 25px #dc2e685d;
+border-color: #dc2e69;
+   }
+.img7 {
+  background-image: url(imagens/img6.png);
+}
+  
+ 

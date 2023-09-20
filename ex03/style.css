@@ -1,0 +1,75 @@
+*{
+   height: 1250px;
+    right: 100%;
+    padding: 10px;
+    margin: 0px;
+    border: 1px solid black;
+ }
+ 
+ nav{
+    padding: 10px;
+    background-color: aqua;
+    height: 150px;
+ }
+ .container {
+    margin-top: 5px;
+    background-color: aquamarine;
+    height: 450px;
+ }     
+
+ .letra{
+    background-color: antiquewhite;
+    height: 150px;
+    margin-left: 20%;
+    margin-right: 20%;
+
+ }
+
+ .doutor{
+    margin-top: 30px;
+    background-color: rgba(0, 0, 255, 0.363);
+    height: 150px;
+    margin-left: 20%;
+    margin-right: 20%;
+ }
+ .conteudo {
+    
+    margin-top: 5px;
+    height:450px;
+    background-color: rgba(117, 1, 1, 0.13);
+ }
+ .textos{
+    margin-right: 70%;
+    background-color: beige;
+    height: 30px;
+ }
+ .img2 {
+    background-color: rgba(0, 0, 255, 0.075);
+    margin-left: 75%;
+    margin-bottom: 52px;
+    height:70px;
+    display: flex;
+    justify-content: center;
+    
+      
+ }
+ 
+ 
+.inform {
+    margin-top:40px;
+    height:20px;
+    background-color: rgba(165, 42, 42, 0.623);
+    margin-right: 65%;
+}
+.inform1 {
+    margin-top:40px;
+    height:20px;
+    background-color: rgba(165, 42, 42, 0.623);
+    margin-right: 65%;
+}
+.inform2 {
+    margin-top:40px;
+    height:20px;
+    background-color: rgba(165, 42, 42, 0.623);
+    margin-right: 65%;
+}
