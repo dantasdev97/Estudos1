@@ -1,0 +1,275 @@
+*{ 
+    padding: 0px;
+    margin: 0px;
+     
+ }
+ header{
+    position: relative;
+background-color: white;
+width: 100%;
+justify-content: center;
+padding-top: 15px;
+padding-bottom: 10px;
+border-bottom: 1px solid #eee;
+}
+
+
+ .container{ 
+ background-color: rgb(255, 255, 255);
+ height: 1300px;
+ border: 1px solid black;
+}
+
+
+ .quadrado{ 
+ background-color:white;
+ margin-top: 0px;
+ height: 150px;
+ display: flex;
+ }
+ .quadrado{
+     background-image: url(#);
+     
+     
+ }
+ .menu{
+  
+ background-color:white;
+ width: 100%;
+ height: 90px;
+ 
+ }
+ .menu-space{
+    margin-left: 50px;
+   justify-content: center;
+   margin-top: 55px;
+    width: 75%;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+text-decoration: none;
+text-transform: capitalize;
+
+ }
+ .ancora{
+ padding: 0px 16px;
+ 
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #29235b;
+}
+
+
+#whats-logo, #instagram-logo , #facebook-logo {
+    width: 45px;
+    height: 45px;
+    margin-left: 10px;
+    margin-top: 4px;
+}
+
+#social-header {
+   
+  
+   
+display: flex;
+justify-content: flex-end;
+align-items: center;
+}
+
+.img1 {
+    background-image: url(https://upiz.com.br/images/banner-home.png);
+    margin-top:0px ;
+    height: 600px;
+    background-color: rgb(161, 127, 127);
+ display: flex;
+ position: relative;
+}
+#sorteio{
+    margin-bottom: -69px;
+    z-index: 2;
+ position: relative;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+}
+
+.container-nada{
+    margin-top: 70px;
+    width: 100%;
+    height: 400px;
+    align-items: center;
+    background-color: white;
+
+}
+
+.texto {
+    display: flex;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    justify-content: center;
+    line-height: 150%;
+    text-align: center;
+    padding: 0 34%;
+    margin-top: 200px;
+
+}
+
+ #btn-text-home{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 18px 40px;
+    gap: 8px;
+    width: 233px;
+    height: 58px;
+    font-size: 18px;
+    color: white;
+    border-color: transparent;
+    background: #FE871F;
+    border-radius: 10px;
+
+}
+#btn-center {
+    margin-top: 20px;
+display: flex;
+flex-direction: row-reverse;
+justify-content: center;
+}
+
+#session-4{
+    display: flex;
+    width: 100%;
+    height: 649px;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #622294;
+    
+  
+}
+#session-4-1 {
+    width: 40%;
+    padding-top: 5vh;
+   
+}
+#session-4-2 {
+    width: 50%;
+    display: flex;
+    align-items: flex-end;
+   
+}
+
+#img-virtual {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 265px;
+}
+
+#title-suporte {
+color: white;
+font-size: 40px;
+font-weight: 900;
+
+}
+
+#title-5{
+color: white;
+font-size: 20px;
+}
+
+#btn-1 {
+    margin-top: 35px;
+    background: #FE871F;
+    border-radius: 10px;
+    padding: 18px 40px;
+    gap: 8px;
+    border-color: transparent;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 18px;
+    color: white;
+}
+
+#btn-2 {
+    margin-top: 35px;
+    background: transparent;
+    border-color: #FE871F;
+    border-radius: 10px;
+    padding: 18px 40px;
+    gap: 8px;
+    border: 2px solid #FE871F;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 18px;
+    color: white;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+#session-6{
+ display: flex;
+ background-image: url(https://upiz.com.br/images/family.webp);
+ background-size: cover;
+ height: 655px;
+}
+
+#session6-1{
+    display: flex;
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+color: white;
+flex-wrap: nowrap;
+justify-content: space-evenly;
+align-items: flex-end;
+margin-bottom: 55px;
+margin-left: 60px;
+
+}
+
+#btn-5 {
+    width: 300px;
+    background: #00A7DD;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 18px 40px;
+    gap: 8px;
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    margin-right: 5px;
+    border-color: transparent;
+    justify-content: center;
+}
+
+#btn-6 {
+    width: 300px;
+    border: 1px solid #00A7DD;
+    border-radius: 10px;
+    align-items: flex-start;
+    padding: 18px 40px;
+    background-color: transparent;
+    color: #00A7DD;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
