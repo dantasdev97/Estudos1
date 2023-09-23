@@ -273,3 +273,139 @@ margin-left: 60px;
     font-weight: 400;
     font-size: 18px;
 }
+#session-5 {
+    display: flex;
+    background-image: url(https://upiz.com.br/images/meeting.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 390px 0px 105px 1.6vw;
+    justify-content: center;
+
+}
+
+#session-5-1 {
+    width: 33%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    color: white;
+
+}
+#session-5-2 {
+    max-width: 1050px;
+    width: 100%;
+    text-align: center;
+
+}
+
+#session-alt, #session-alt2 {
+    display: flex;
+    flex-direction: column;
+}
+
+#btn-3 {
+    width: 300px;
+    background: #29235B;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 18px 40px;
+    gap: 8px;
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    margin-right: 5px;
+    border-color: transparent;
+    justify-content: center;
+}
+
+#btn-3a:hover {
+    width: 300px;
+    background: #29235B;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 18px 40px;
+    gap: 8px;
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    margin-right: 5px;
+    border-color: transparent;
+    justify-content: center;
+}
+
+#session-alt{
+    text-decoration: none 
+}
+
+
+#btn-4 {
+    width: 300px;
+    border: 1px solid #29235B;
+    border-radius: 10px;
+    align-items: flex-start;
+    padding: 18px 40px;
+    background-color: transparent;
+    color: #29235B;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+#session-7 {
+    max-width: 1050px;
+    flex-wrap: wrap;
+    padding: 100px 0px 15px 0px ;
+}
+#session-7 {
+    justify-content: normal;
+    text-align: center;
+}
+#session-7 {
+    display: flex;
+    padding: 100px 0px 100px 90px;
+    background-size: cover;
+    justify-content: space-around;
+}
+#session-7-1 {
+    width: 33%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    color: #29235B;
+}
+#session-7-2 {
+    width: 95%;
+    padding: 30px 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+}
+
+#botao-sanfona {
+    display: flex;
+    justify-content: center;
+}
+#botao-sanfona {
+    text-decoration: none !important;
+    color: #29235B;
+}
+
+#botao-sanfona :hover {
+    text-decoration: none ;
+    color: #29235B;
+    cursor: pointer;
+    
+}
