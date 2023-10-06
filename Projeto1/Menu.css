@@ -1,70 +1,51 @@
-.meu-menu{
+.menu {
     display: flex;
-    position: relative;
-    width: 100%;
-    background-color: aqua;
-    height:78px ;
-    color: white;
-}
-
-.nav-pc {
-    width: 40%;
-    align-items: center;
-    display: flex;
-   
-    justify-content: space-between;
-   
-    position: relative;
+    background-color: white;
+    padding: 10px;
+border: 2px solid black;
+height: 80px;
 
 }
 
-
-
-
-
-
-*, :after, :before {
-    box-sizing: border-box;
-}
-
-
-   
-
-
-.menu-listas{
-    width: 60%;
-    list-style-type: disc;
-    margin-block-start: 3em;
-    display: flex;
-    margin-left: 2px;
-}
-
-.menu-listas {
-    display: flex;
-    list-style: none; 
+.menu ul {
+    list-style-type: none;
     padding: 0;
-    margin-top: 57px;
-  }
-  
-  
-  .menu-listas li {
-    display: inline-block; 
-    margin-right: 20px; 
-    border-bottom: 2px solid transparent; 
-    transition: border-bottom-color 0.3s; 
-  }
-  
- 
-  .menu-listas li:hover {
-    border-bottom-color: blue; 
-  }
-  
-  
-  .menu-listas li::before {
-    content: none; 
-  }
-  
-  
-  .menu-listas .texto-lista {
+}
+
+.menu li {
+    display: table-cell;
+    padding: 15px 0;
+    position: relative;
+}
+
+a{
+    color: black;
+    text-transform: uppercase;
     text-decoration: none;
-  }
+    letter-spacing: 0.15em;
+    display: inline-block;
+    padding: 15px 20px;
+    position: relative; 
+}
+
+.menu-01:hover::after{
+    width: 100%;
+    left: 0;
+    background-color: #00fffc;
+}
+
+.logo {
+    display: flex;
+    width: 30%;
+   
+   background-image: url(imagens/neuro.png);
+ } 
+
+ .overlay-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    max-height: 100%;
+}
