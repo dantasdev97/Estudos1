@@ -36,16 +36,11 @@ a{
 
 .logo {
     display: flex;
-    width: 30%;
+    width: 45%;
    
-   background-image: url(imagens/neuro.png);
+   align-items: baseline;
+   margin-top: -195px;
+   justify-content: flex-end;
  } 
 
- .overlay-image {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    max-width: 100%;
-    max-height: 100%;
-}
+ 
