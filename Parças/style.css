@@ -154,7 +154,7 @@ body {
     transition-duration: 0ms;
   }
   .cards:hover .imagem-fundo,
-  .cards:focus-within . {
+  .cards:focus-within .  {
     transform: scale(1.3);
   }
 

@@ -151,11 +151,3 @@ h2 {
     max-width: 100%;
 }
 
-.div-grande{
- display: flex;
- transform: skewY(-4deg); 
- transform-origin: 0;
- width: 100%;
- background-color: #0e1835;
- height: 400px;
-}
